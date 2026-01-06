@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Clawdis Discord Bot</title>
+    <style>
+        :root {
+            --bg: #0f0f10;
+            --surface: #1a1a1c;
+            --border: #2a2a2e;
+            --text: #e4e4e7;
+            --text-muted: #a1a1aa;
+            --accent: #5865F2;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .back {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.875rem;
+            margin-bottom: 2rem;
+        }
+        .back:hover { color: var(--accent); }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .logo { font-size: 2.5rem; }
+        h1 { font-size: 1.75rem; font-weight: 700; }
+        .subtitle { color: var(--text-muted); font-size: 0.875rem; }
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            color: var(--text);
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+            color: var(--text-muted);
+        }
+        p { margin-bottom: 1rem; color: var(--text-muted); }
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+            color: var(--text-muted);
+        }
+        li { margin-bottom: 0.5rem; }
+        strong { color: var(--text); font-weight: 600; }
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        .footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="./" class="back">← Back to Legal</a>
+        <div class="header">
+            <span class="logo">📜</span>
+            <div>
+                <h1>Terms of Service</h1>
+                <p class="subtitle">Clawdis Discord Bot</p>
+            </div>
+        </div>
+
+        <h2>Overview</h2>
+        <p>Clawdis is a personal AI assistant bot designed to help with automation, monitoring, and task execution on Discord.</p>
+
+        <h2>What the Bot Does</h2>
+        <ul>
+            <li>Responds to messages and commands in Discord</li>
+            <li>Performs monitoring tasks (e.g., website scraping, alerting)</li>
+            <li>Executes automations and integrations</li>
+            <li>Maintains conversation history for context</li>
+            <li>Logs interactions for debugging and improvement</li>
+        </ul>
+
+        <h2>What You Agree To</h2>
+        <p>By adding Clawdis to your server, you agree that:</p>
+        <ol>
+            <li><strong>You own or have permission</strong> to use the bot in the Discord server</li>
+            <li><strong>You understand the bot has limitations</strong> — it may make mistakes, misunderstand context, or fail</li>
+            <li><strong>You use the bot at your own risk</strong> — for critical operations, verify results manually</li>
+            <li><strong>You're responsible for bot behavior</strong> — if it spams, violates rules, or causes problems, you manage it</li>
+            <li><strong>You won't abuse the bot</strong> — no spam, harassment, or attempts to break/exploit it</li>
+        </ol>
+
+        <h2>Limitations</h2>
+        <ul>
+            <li>Clawdis is not a lawyer, doctor, or professional advisor</li>
+            <li>Do not rely on it for legal, medical, or financial decisions without verification</li>
+            <li>The bot may be offline, slow, or unavailable without notice</li>
+            <li>Responses are AI-generated and may contain inaccuracies</li>
+        </ul>
+
+        <h2>Termination</h2>
+        <p>You can remove the bot anytime. The bot owner reserves the right to revoke access if abused.</p>
+
+        <footer class="footer">
+            <p>Last updated: January 6, 2026</p>
+            <p>Bot owner: <a href="https://adrianmarten.net">Adrian Martén</a></p>
+        </footer>
+    </div>
+</body>
+</html>
